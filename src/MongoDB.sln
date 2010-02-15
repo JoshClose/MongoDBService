@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDB.Service", "MongoDB.Service\MongoDB.Service.csproj", "{C339B01A-A96A-4AE3-9204-DBB14F3E1D03}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MongoDB.Installer", "MongoDB.Installer\MongoDB.Installer.vdproj", "{9A3CD781-D7A8-4E92-A643-C3F0B96B9C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C339B01A-A96A-4AE3-9204-DBB14F3E1D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C339B01A-A96A-4AE3-9204-DBB14F3E1D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C339B01A-A96A-4AE3-9204-DBB14F3E1D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C339B01A-A96A-4AE3-9204-DBB14F3E1D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3CD781-D7A8-4E92-A643-C3F0B96B9C62}.Debug|Any CPU.ActiveCfg = Debug
+		{9A3CD781-D7A8-4E92-A643-C3F0B96B9C62}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

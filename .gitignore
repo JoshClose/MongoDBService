@@ -1,0 +1,7 @@
+*_ReSharper*
+*.user
+*.suo
+src/MongoDB.Installer/Debug/
+src/MongoDB.Installer/Release/
+src/MongoDB.Service/bin/
+src/MongoDB.Service/obj/
