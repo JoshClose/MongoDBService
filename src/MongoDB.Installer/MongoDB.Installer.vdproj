@@ -21,8 +21,26 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_6B624F62F641EC6ED9FC7A93E35E85B7"
+        "OwnerKey" = "8:_5C8CA3D8BDBD43B9B24AA7B7E17D9B11"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_837AE3DBFE5430B47728333B18B81063"
+        "OwnerKey" = "8:_6B624F62F641EC6ED9FC7A93E35E85B7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_5C8CA3D8BDBD43B9B24AA7B7E17D9B11"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6B624F62F641EC6ED9FC7A93E35E85B7"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -87,6 +105,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
+                    {
+                    "Name" = "8:.NET Framework 3.5 SP1"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -120,7 +151,7 @@
             "Sequence" = "3:1"
             "Identifier" = "8:_FC695648_CC0B_454F_85CC_7EE03DD3125A"
             "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
+            "CustomActionData" = "8:/TARGETDIR=\"[TARGETDIR]\\\" /ProgramMenuFolder=\"[ProgramMenuFolder]\\\""
             }
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_67FD5AE615904210A30C5E3BF797593B"
             {
@@ -134,7 +165,7 @@
             "Sequence" = "3:1"
             "Identifier" = "8:_5CD3BA86_4D32_456B_9B5E_E3C96C3DFA03"
             "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
+            "CustomActionData" = "8:/TARGETDIR=\"[TARGETDIR]\\\" /ProgramMenuFolder=\"[ProgramMenuFolder]\\\""
             }
         }
         "DefaultFeature"
@@ -159,6 +190,57 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6B624F62F641EC6ED9FC7A93E35E85B7"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Interop.IWshRuntimeLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_6B624F62F641EC6ED9FC7A93E35E85B7"
+                    {
+                    "Name" = "8:Interop.IWshRuntimeLibrary.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Interop.IWshRuntimeLibrary.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_0D83D5E30EE54A7FACE5440D4329477E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_837AE3DBFE5430B47728333B18B81063"
+            {
+            "SourcePath" = "8:wshom.ocx"
+            "TargetName" = "8:wshom.ocx"
+            "Tag" = "8:"
+            "Folder" = "8:_0D83D5E30EE54A7FACE5440D4329477E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -169,7 +251,7 @@
             {
             "DefaultLocation" = "8:[ProgramFiles64Folder]\\[ProductName]"
             "Name" = "8:#1925"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:TARGETDIR"
@@ -191,12 +273,23 @@
             "{1525181F-901A-416C-8A58-119130FE478E}:_E8746C0B6B474F3A9004C3C66979541E"
             {
             "Name" = "8:#1919"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_69E13032EDB84928B974AE4C34B47E94"
+                    {
+                    "Name" = "8:MongoDB"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_E9D05F18D3E84C11B9250CD089F73896"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -216,7 +309,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:MongoDB Service"
         "ProductCode" = "8:{DC4554C1-D998-4317-BD8A-918A64B94DE6}"
-        "PackageCode" = "8:{92C8135E-0F4E-4E63-A5E7-95A1730D8F4D}"
+        "PackageCode" = "8:{6BCCF145-E909-4752-8675-3AA7246868C6}"
         "UpgradeCode" = "8:{188A49C8-4449-4D10-99A0-21FDAB42B02B}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
@@ -736,7 +829,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_5C8CA3D8BDBD43B9B24AA7B7E17D9B11"
             {
-            "SourcePath" = "8:..\\MongoDB.Service\\obj\\Debug\\MongoDBService.exe"
+            "SourcePath" = "8:..\\MongoDB.Service\\obj\\Release\\MongoDBService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0D83D5E30EE54A7FACE5440D4329477E"

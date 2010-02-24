@@ -74,97 +74,108 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="mongodb-win32-x86_64-1.2.2\GNU-AGPL-3.0" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\lib\mongoclient.lib" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\README" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\THIRD-PARTY-NOTICES" />
+    <Content Include="MongoDB\GNU-AGPL-3.0" />
+    <Content Include="MongoDB\lib\mongoclient.lib" />
+    <Content Include="MongoDB\README" />
+    <Content Include="MongoDB\THIRD-PARTY-NOTICES" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongo.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongod.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongodump.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongoexport.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongofiles.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongoimport.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongorestore.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\bin\mongos.exe" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\client\connpool.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\client\dbclient.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\client\gridfs.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\client\model.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\client\parallel.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\client\quorum.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\btree.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\client.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\clientcursor.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\cmdline.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\commands.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\concurrency.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\curop.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\cursor.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\database.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\db.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\dbhelpers.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\dbinfo.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\dbmessage.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\extsort.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\filever.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\instance.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\introspect.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\jsobj.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\jsobjmanipulator.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\json.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\lasterror.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\matcher.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\minilex.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\module.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\namespace.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\nonce.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\pdfile.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\query.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\queryoptimizer.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\queryutil.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\rec.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\reccache.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\reci.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\recstore.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\repl.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\replset.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\resource.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\scanandorder.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\security.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\db\storage.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\stdafx.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\targetver.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\allocator.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\assert_util.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\background.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\base64.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\builder.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\debug_util.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\embedded_builder.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\file.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\file_allocator.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\goodies.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\hashtab.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\httpclient.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\log.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\lruishmap.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\md5.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\message.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\message_server.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\miniwebserver.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\mmap.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\ntservice.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\optime.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\processinfo.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\queue.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\sock.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\top.h" />
-    <Content Include="mongodb-win32-x86_64-1.2.2\include\mongo\util\unittest.h" />
+    <Content Include="MongoDB\bin\mongo.exe" />
+    <Content Include="MongoDB\bin\mongod.exe" />
+    <Content Include="MongoDB\bin\mongodump.exe" />
+    <Content Include="MongoDB\bin\mongoexport.exe" />
+    <Content Include="MongoDB\bin\mongofiles.exe" />
+    <Content Include="MongoDB\bin\mongoimport.exe" />
+    <Content Include="MongoDB\bin\mongorestore.exe" />
+    <Content Include="MongoDB\bin\mongos.exe" />
+    <Content Include="MongoDB\include\mongo\client\connpool.h" />
+    <Content Include="MongoDB\include\mongo\client\dbclient.h" />
+    <Content Include="MongoDB\include\mongo\client\gridfs.h" />
+    <Content Include="MongoDB\include\mongo\client\model.h" />
+    <Content Include="MongoDB\include\mongo\client\parallel.h" />
+    <Content Include="MongoDB\include\mongo\client\quorum.h" />
+    <Content Include="MongoDB\include\mongo\db\btree.h" />
+    <Content Include="MongoDB\include\mongo\db\client.h" />
+    <Content Include="MongoDB\include\mongo\db\clientcursor.h" />
+    <Content Include="MongoDB\include\mongo\db\cmdline.h" />
+    <Content Include="MongoDB\include\mongo\db\commands.h" />
+    <Content Include="MongoDB\include\mongo\db\concurrency.h" />
+    <Content Include="MongoDB\include\mongo\db\curop.h" />
+    <Content Include="MongoDB\include\mongo\db\cursor.h" />
+    <Content Include="MongoDB\include\mongo\db\database.h" />
+    <Content Include="MongoDB\include\mongo\db\db.h" />
+    <Content Include="MongoDB\include\mongo\db\dbhelpers.h" />
+    <Content Include="MongoDB\include\mongo\db\dbinfo.h" />
+    <Content Include="MongoDB\include\mongo\db\dbmessage.h" />
+    <Content Include="MongoDB\include\mongo\db\extsort.h" />
+    <Content Include="MongoDB\include\mongo\db\filever.h" />
+    <Content Include="MongoDB\include\mongo\db\instance.h" />
+    <Content Include="MongoDB\include\mongo\db\introspect.h" />
+    <Content Include="MongoDB\include\mongo\db\jsobj.h" />
+    <Content Include="MongoDB\include\mongo\db\jsobjmanipulator.h" />
+    <Content Include="MongoDB\include\mongo\db\json.h" />
+    <Content Include="MongoDB\include\mongo\db\lasterror.h" />
+    <Content Include="MongoDB\include\mongo\db\matcher.h" />
+    <Content Include="MongoDB\include\mongo\db\minilex.h" />
+    <Content Include="MongoDB\include\mongo\db\module.h" />
+    <Content Include="MongoDB\include\mongo\db\namespace.h" />
+    <Content Include="MongoDB\include\mongo\db\nonce.h" />
+    <Content Include="MongoDB\include\mongo\db\pdfile.h" />
+    <Content Include="MongoDB\include\mongo\db\query.h" />
+    <Content Include="MongoDB\include\mongo\db\queryoptimizer.h" />
+    <Content Include="MongoDB\include\mongo\db\queryutil.h" />
+    <Content Include="MongoDB\include\mongo\db\rec.h" />
+    <Content Include="MongoDB\include\mongo\db\reccache.h" />
+    <Content Include="MongoDB\include\mongo\db\reci.h" />
+    <Content Include="MongoDB\include\mongo\db\recstore.h" />
+    <Content Include="MongoDB\include\mongo\db\repl.h" />
+    <Content Include="MongoDB\include\mongo\db\replset.h" />
+    <Content Include="MongoDB\include\mongo\db\resource.h" />
+    <Content Include="MongoDB\include\mongo\db\scanandorder.h" />
+    <Content Include="MongoDB\include\mongo\db\security.h" />
+    <Content Include="MongoDB\include\mongo\db\storage.h" />
+    <Content Include="MongoDB\include\mongo\stdafx.h" />
+    <Content Include="MongoDB\include\mongo\targetver.h" />
+    <Content Include="MongoDB\include\mongo\util\allocator.h" />
+    <Content Include="MongoDB\include\mongo\util\assert_util.h" />
+    <Content Include="MongoDB\include\mongo\util\background.h" />
+    <Content Include="MongoDB\include\mongo\util\base64.h" />
+    <Content Include="MongoDB\include\mongo\util\builder.h" />
+    <Content Include="MongoDB\include\mongo\util\debug_util.h" />
+    <Content Include="MongoDB\include\mongo\util\embedded_builder.h" />
+    <Content Include="MongoDB\include\mongo\util\file.h" />
+    <Content Include="MongoDB\include\mongo\util\file_allocator.h" />
+    <Content Include="MongoDB\include\mongo\util\goodies.h" />
+    <Content Include="MongoDB\include\mongo\util\hashtab.h" />
+    <Content Include="MongoDB\include\mongo\util\httpclient.h" />
+    <Content Include="MongoDB\include\mongo\util\log.h" />
+    <Content Include="MongoDB\include\mongo\util\lruishmap.h" />
+    <Content Include="MongoDB\include\mongo\util\md5.h" />
+    <Content Include="MongoDB\include\mongo\util\message.h" />
+    <Content Include="MongoDB\include\mongo\util\message_server.h" />
+    <Content Include="MongoDB\include\mongo\util\miniwebserver.h" />
+    <Content Include="MongoDB\include\mongo\util\mmap.h" />
+    <Content Include="MongoDB\include\mongo\util\ntservice.h" />
+    <Content Include="MongoDB\include\mongo\util\optime.h" />
+    <Content Include="MongoDB\include\mongo\util\processinfo.h" />
+    <Content Include="MongoDB\include\mongo\util\queue.h" />
+    <Content Include="MongoDB\include\mongo\util\sock.h" />
+    <Content Include="MongoDB\include\mongo\util\top.h" />
+    <Content Include="MongoDB\include\mongo\util\unittest.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="MongoDB Command Prompt.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
